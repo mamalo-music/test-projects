@@ -1,0 +1,80 @@
+* {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  font-size: 15px;
+}
+.test {
+  background-color: rgb(194, 76, 76);
+  padding: 5px 5px 5px 5px;
+}
+span {
+  color: rgb(117, 250, 255);
+  font-size: 20px;
+}
+div{
+    background: linear-gradient(45deg, blue, red);
+    width: 600px;
+    margin: auto;
+    border: 2px black solid;
+    border-radius: 5px;
+    box-shadow: 0 0 20px 2px black;
+    width: 70%;
+    transition:all 200ms;
+
+}
+div:hover{
+  transition: all 1s;
+  background: linear-gradient(#e66465, #9198e5);
+  margin: auto;
+  border: 2px black solid;
+  border-radius: 50%;
+  box-shadow: 0 0 20px 2px black;
+}
+.qq
+{
+    display: block;
+    border: solid 1px;
+    border-radius: 3px;
+    margin: 10px auto 20px auto;
+    height: 20px;
+    box-shadow: 0 0 9px 1px black;
+}
+input.ww{
+  display: block;
+  font-size: 15px;
+  margin: 20px auto 20px auto;
+  box-shadow: 0 0 20px 2px black;
+
+}
+@media screen and (min-width: 500px) and (max-width: 600px) {
+  .test {
+    background-color: blue;
+    color: white;
+  }
+  span {
+    display: none;
+  }
+  p span {
+    color: rgb(255, 247, 29);
+    display: inline;
+  }
+  input{
+    display: inline;
+  }
+  div{
+    background: red;
+    margin: 20px auto 0 auto ;
+  }
+  div:hover{
+    background: red;
+    margin: 20px auto 0 auto ;
+    border: 2px black solid;
+    border-radius: 50%;
+    box-shadow: 0 0 20px 2px black;
+  }
+}
+@media screen and (min-width: 700px) {
+  body {
+    background-color: #898989;
+  }
+}
